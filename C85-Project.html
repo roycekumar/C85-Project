@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("racing.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car Racing</title>
+</head>
+<body onload="add();">
+<center>
+	<h2>Car Racing</h2>
+	<span><h2 id="game_status">Game Status :</h2></span>
+	<canvas id="myCanvas" width="800" height="600"></canvas>
+<p id="winner_result"></p>
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
